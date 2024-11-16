@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .joinButton {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .joinButton:hover {
+    background-color: #ffc107;
+  }
+  
