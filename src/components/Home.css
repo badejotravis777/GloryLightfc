@@ -1,0 +1,836 @@
+/* Overall Section Styling */
+/* Fix for responsiveness */
+@media (max-width: 1368px) {
+  .power-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 30px;
+    /* width: 130%; */
+  }
+}
+.power-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #000; /* Black background */
+  color: #ffc107; /* Yellow text */
+}
+
+/* Text Content Styling */
+/* @media (max-width: 768px) {
+  .power-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 40px;
+  }
+} */
+
+.power-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+@media (max-width: 1368px) {
+  .power-content h1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+    width: 130%;
+  }
+}
+.power-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffc107; /* Yellow heading */
+}
+
+
+@media (max-width: 1368px) {
+  .power-content h2 {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    width: 180%;
+    
+  }
+}
+
+.power-content h2 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1368px) {
+  .discover-btn {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    width: 180%;
+    
+  }
+}
+
+.discover-btn {
+  background-color: #ffc107; /* Yellow background */
+  color: #000; /* Black text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.discover-btn:hover {
+  background-color: #d4a005; /* Slightly darker yellow */
+}
+
+
+/* Styled Box for the Image */
+/* @media (max-width: 768px) {
+  .power-image-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 75px;
+    gap: 40px;
+  }
+} */
+
+@media (max-width: 1368px) {
+  .power-image-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 30px;
+    width: 190%;
+  }
+}
+.power-image-card {
+  flex: 1;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (max-width: 1368px) {
+  .styled-box {
+    flex-direction: column;
+    text-align: center;
+    /* gap: 30px; */
+    padding-right: 40px;
+    width: 190%;
+    
+  }
+}
+
+.styled-box {
+  background-color: #ffc107; /* Yellow box background */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+/* @media (max-width: 768px) {
+  .power-image {
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    width: 180%;
+    
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .power-image {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 40px;
+    width: 190%;
+    
+  }
+} */
+
+.power-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+/* @media (max-width: 768px) {
+  .image-caption {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+  }
+} */
+/* Caption Below the Image */
+
+@media (max-width: 1368px) {
+  .image-caption {
+    flex-direction: column;
+    text-align: center;
+    /* padding: 30px; */
+    /* gap: 40px; */
+    width: 180%;
+  }
+}
+
+
+.image-caption {
+  margin-top: 20px;
+  background-color: #000; 
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffc107; 
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 1368px) {
+  .image-caption h2 {
+    flex-direction: column;
+    text-align: center;
+    /* padding: 30px; */
+    /* gap: 40px; */
+    width: 150%;
+  }
+}
+
+.image-caption h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image-caption p {
+  font-size: 1rem;
+}
+
+/* Training Facilities Section Styling */
+.training-facilities {
+  padding: 60px 20px;
+  background-color: #f4f4f4; /* Light gray background */
+  text-align: center;
+}
+
+.facilities-header h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray text */
+}
+
+.facilities-header p {
+  font-size: 1rem;
+  color: #555; /* Medium gray text */
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+/* Facilities Cards Layout */
+@media (max-width: 1368px) {
+  .facilities-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.facilities-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.facility-card {
+  background-color: #fff; /* White card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.facility-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.facility-icon {
+  font-size: 2.5rem;
+  color: #ffc107; /* Yellow icon */
+  margin-bottom: 15px;
+}
+
+.facility-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray text */
+}
+
+.facility-card p {
+  font-size: 0.95rem;
+  color: #555; /* Medium gray text */
+  line-height: 1.5;
+}
+
+/* About Our Club Section */
+@media (max-width: 1368px) {
+  .about-club {
+    padding: 40px 15px;
+  }
+}
+.about-club {
+  padding: 60px 20px;
+  background: url('/Users/bosunbadejo/Downloads/aboutbackground.webp') no-repeat center center / cover; /* Background image */
+  color: yellow; /* White text to contrast dark background */
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Club Cards Layout */
+@media (max-width: 1368px) {
+  .club-cards {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.club-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.club-card {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.club-logo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.club-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.club-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Gallery Section */
+@media (max-width: 1368px) {
+  .gallery-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.gallery-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5%;
+  background-color: #f9f9f9; /* Background color */
+}
+
+.gallery-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.gallery-image-container {
+  flex: 1;
+}
+
+.gallery-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-text {
+  flex: 1;
+}
+
+.gallery-text h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.gallery-text p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.gallery-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.gallery-btn:hover {
+  background-color: #555;
+}
+
+/* Contact Us Section */
+@media (max-width: 1368px) {
+  .contact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.contact-us-section {
+  background-color: #000;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-header h2 {
+  font-size: 2rem;
+  color: red;
+}
+
+.contact-header p {
+  font-size: 1rem;
+  color: red;
+  margin-top: 10px;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.contact-card {
+  background-color: #ffc107;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.player-image {
+  width: 100%;
+  height: 55%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.contact-card h3 {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.contact-card p {
+  font-size: 0.9rem;
+  color: red;
+}
+
+.contact-follow {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-follow h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contact-follow p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.connect-btn {
+  background-color: #ff8800;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.connect-btn:hover {
+  background-color: #e06b00;
+}
+
+
+
+/* Follow Us Section */
+@media (max-width: 1368px) {
+  .follow-container {
+    padding: 30px 15px;
+  }
+  }
+.follow-us-section {
+  background-color: #000; /* Black */
+  color: #ffd700; /* Yellow */
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.follow-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.follow-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.connect-btn {
+  background-color: #ffd700; /* Yellow */
+  color: #000; /* Black */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.connect-btn:hover {
+  background-color: #e6c200; /* Darker Yellow */
+}
+
+
+/* Follow Us Section */
+@media (max-width: 1368px) {
+  .follow-container {
+    padding: 30px 15px;
+  }
+  }
+.follow-us-section {
+  background-color: #000; /* Black */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.follow-container {
+  background-color: #fff; /* White */
+  color: #000; /* Black */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.follow-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #000; /* Black */
+}
+
+.follow-container p {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.connect-btn {
+  background-color: #ffd700; /* Yellow */
+  color: #000; /* Black */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.connect-btn:hover {
+  background-color: #e6c200; /* Darker Yellow */
+}
+
+/* Footer Section */
+@media (max-width: 1368px) {
+  .follow-container {
+    padding: 30px 15px;
+  }
+  }
+
+.footer {
+  background-color: #2e2e2e; /* Dark Gray */
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: #ccc;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 900px;
+  width: 100%;
+}
+
+.footer-column {
+  text-align: left;
+  margin: 10px;
+  flex: 1 1 30%;
+}
+
+.footer-column h3 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #ffd700; /* Yellow */
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #aaa; /* Light Gray */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Follow Us Section */
+@media (max-width: 1368px) {
+  .follow-container {
+    padding: 30px 15px;
+  }
+}
+.follow-us-section {
+  background-color: #1a1a1a; /* Slightly darker gray */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.follow-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #ffd700; /* Yellow */
+}
+
+.follow-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.connect-btn {
+  background-color: #ffd700; /* Yellow */
+  color: #2e2e2e; /* Dark Gray */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.connect-btn:hover {
+  background-color: #e6c200; /* Darker yellow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1368px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .follow-container {
+    padding: 20px 15px;
+  }
+
+  .follow-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .connect-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1368px) {
+  .team-grid {
+    flex-wrap: wrap;
+  }
+  
+  .facility-card, .club-card {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+/* Add keyframes for scroll-up and slider animations */
+@keyframes slideUp {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply animation classes */
+.scroll-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+.slider-in {
+  animation: slideIn 1.2s ease-out forwards;
+}
+
+/* Pop-up effect */
+.pop-up {
+  transform: scale(0);
+  animation: popIn 0.8s ease-out forwards;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Section enhancements */
+.power-section, .training-facilities, .about-club {
+  position: relative;
+}
+
+.power-content h1, .gallery-text h2 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button hover animation */
+.discover-btn, .gallery-btn, .connect-btn {
+  transition: transform 0.3s ease-in-out;
+}
+
+.discover-btn:hover, .gallery-btn:hover, .connect-btn:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 480px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust layout for tablets */
+  .power-section {
+    flex-direction: column;
+    text-align: center;
+  }
+}

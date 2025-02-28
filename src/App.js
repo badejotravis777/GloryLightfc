@@ -7,6 +7,8 @@ import Programs from './pages/Programs';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Register from './pages/Register';
+import './styles/Global.css';
+
 
 function App() {
   return (

@@ -1,0 +1,133 @@
+/* === GLOBAL RESPONSIVE STYLES === */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Make Images Scale Properly */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* General Responsive Fixes */
+  @media screen and (max-width: 1024px) {
+    /* Fix for contact images */
+    .contact-card img {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .team-grid {
+      flex-wrap: wrap;
+    }
+  
+    .power-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .power-image-card img {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Tablet Fixes */
+    .power-section, .gallery-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .gallery-content {
+      text-align: center;
+    }
+  
+    .image-caption {
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .contact-card {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .testimonial {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .facilities-cards {
+      flex-direction: column;
+    }
+  
+    .team-card {
+      width: 90%;
+      margin: auto;
+    }
+  
+    .club-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .club-card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    /* Fix form elements */
+    form input, form select, form button {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Mobile Screen Fixes */
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .contact-card img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .facility-card, .club-card {
+      width: 100%;
+    }
+  
+    .gallery-image-container img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Fix Footer Layout */
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

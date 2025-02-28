@@ -1,35 +1,71 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #333;
-  }
-  
-  .logo img {
-    width: 120px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.joinButton {
+  background-color: #ffcc00;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.joinButton:hover {
+  background-color: #ffc107;
+}
+
+/* Hide menu by default on mobile */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 1368px) {
   .navLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+    z-index: 1000;
+  }
+
+  .navLinks.open {
     display: flex;
-    gap: 20px;
   }
-  
+
   .navLinks a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+    padding: 15px;
+    font-size: 1.2rem;
   }
-  
-  .joinButton {
-    background-color: #ffcc00;
-    color: black;
-    padding: 10px 20px;
-    border-radius: 20px;
-    transition: background-color 0.3s;
+
+  .hamburger {
+    display: block;
   }
-  
-  .joinButton:hover {
-    background-color: #ffc107;
-  }
-  
+}
