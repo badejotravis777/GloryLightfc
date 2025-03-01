@@ -394,6 +394,15 @@ const About = () => {
                  whatsapp: '123456789',
                  quote: 'Empowering the next generation.',
                  },
+
+                 { name: 'Okoroafor Hans Chigozirim',
+                 role: 'Coaching crew/phone videographer',
+                  imgSrc:"/images/member18.png",
+                  linkedin: 'https://www.linkedin.com/in/okoroafor-hans',
+                  whatsapp: '123456789',
+                  quote: 'Empowering the next generation.',
+                  },
+
       
                  { name: 'Ayah Favour Bonny oyeindipamo',
                   role: 'Creative Thinker', 
