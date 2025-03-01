@@ -336,7 +336,7 @@
 }
 .about-club {
   padding: 60px 20px;
-  background: url('/Users/bosunbadejo/Downloads/aboutbackground.webp') no-repeat center center / cover; /* Background image */
+  background-color: red;
   color: yellow; 
   text-align: center;
 }
