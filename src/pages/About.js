@@ -396,7 +396,7 @@ const About = () => {
                  },
 
                  { name: 'Okoroafor Hans Chigozirim',
-                 role: 'Coaching crew/phone videographer',
+                 role: 'Sport Strategist',
                   imgSrc:"/images/member18.png",
                   linkedin: 'https://www.linkedin.com/in/okoroafor-hans',
                   whatsapp: '123456789',
