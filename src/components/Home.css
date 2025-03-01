@@ -1,6 +1,16 @@
 /* Overall Section Styling */
 /* Fix for responsiveness */
-@media (max-width: 1368px) {
+@media (max-width: 768px) {
+  .power-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    gap: 30px;
+   
+  }
+}
+
+@media (max-width: 1190px) {
   .power-section {
     flex-direction: column;
     text-align: center;
@@ -14,26 +24,28 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 50px;
-  background-color: #000; /* Black background */
-  color: #ffc107; /* Yellow text */
+  background-color: #000; 
+  color: #ffc107; 
 }
 
-/* Text Content Styling */
-/* @media (max-width: 768px) {
-  .power-content {
-    flex-direction: column;
-    text-align: center;
-    padding: 40px;
-    gap: 40px;
-  }
-} */
+
 
 .power-content {
   flex: 1;
   max-width: 50%;
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 768px) {
+  .power-content h1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+    width: 130%;
+  }
+}
+
+@media (max-width: 1190px) {
   .power-content h1 {
     flex-direction: column;
     text-align: center;
@@ -46,11 +58,21 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #ffc107; /* Yellow heading */
+  color: #ffc107; 
 }
 
 
-@media (max-width: 1368px) {
+@media (max-width: 768px) {
+  .power-content h2 {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    width: 180%;
+    
+  }
+}
+
+@media (max-width: 1190px) {
   .power-content h2 {
     flex-direction: column;
     text-align: center;
@@ -66,7 +88,17 @@
 }
 
 
-@media (max-width: 1368px) {
+@media (max-width: 768px) {
+  .discover-btn {
+    flex-direction: column;
+    text-align: center;
+    margin: 0px;
+    width: 180%;
+    
+  }
+}
+
+@media (max-width: 1190px) {
   .discover-btn {
     flex-direction: column;
     text-align: center;
@@ -77,8 +109,8 @@
 }
 
 .discover-btn {
-  background-color: #ffc107; /* Yellow background */
-  color: #000; /* Black text */
+  background-color: #ffc107; 
+  color: #000; 
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -88,27 +120,29 @@
 }
 
 .discover-btn:hover {
-  background-color: #d4a005; /* Slightly darker yellow */
+  background-color: #d4a005; 
 }
 
 
-/* Styled Box for the Image */
-/* @media (max-width: 768px) {
+
+
+@media (max-width: 768px) {
   .power-image-card {
     flex-direction: column;
     text-align: center;
-    padding: 75px;
-    gap: 40px;
+    padding: 40px;
+    /* gap: 30px; */
+    width: 190%;
   }
-} */
+}
 
-@media (max-width: 1368px) {
+@media (max-width: 1190px) {
   .power-image-card {
     flex-direction: column;
     text-align: center;
     padding: 40px;
     gap: 30px;
-    width: 190%;
+    width: 200%;
   }
 }
 .power-image-card {
@@ -121,7 +155,7 @@
 
 
 
-@media (max-width: 1368px) {
+@media (max-width: 768px) {
   .styled-box {
     flex-direction: column;
     text-align: center;
@@ -132,34 +166,30 @@
   }
 }
 
-.styled-box {
-  background-color: #ffc107; /* Yellow box background */
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-}
-
-
-/* @media (max-width: 768px) {
-  .power-image {
+@media (max-width: 1190px) {
+  .styled-box {
     flex-direction: column;
     text-align: center;
-    margin: 30px;
-    width: 180%;
-    
-  }
-} */
-
-/* @media (max-width: 768px) {
-  .power-image {
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-    padding: 40px;
+    /* gap: 30px; */
+    padding-right: 40px;
     width: 190%;
     
   }
-} */
+}
+
+
+.styled-box {
+  background-color: #ffc107; 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+
+
+
 
 .power-image {
   width: 100%;
@@ -167,17 +197,19 @@
 }
 
 
-/* @media (max-width: 768px) {
+
+
+@media (max-width: 768px) {
   .image-caption {
     flex-direction: column;
     text-align: center;
-    padding: 30px;
-    gap: 40px;
+    /* padding: 30px; */
+    /* gap: 40px; */
+    width: 180%;
   }
-} */
-/* Caption Below the Image */
+}
 
-@media (max-width: 1368px) {
+@media (max-width: 1190px) {
   .image-caption {
     flex-direction: column;
     text-align: center;
@@ -199,7 +231,16 @@
 }
 
 
-@media (max-width: 1368px) {
+@media (max-width: 768px) {
+  .image-caption h2 {
+    flex-direction: column;
+    text-align: center;
+    /* padding: 30px; */
+    /* gap: 40px; */
+    width: 150%;
+  }
+}
+@media (max-width: 1190px) {
   .image-caption h2 {
     flex-direction: column;
     text-align: center;
@@ -219,10 +260,10 @@
   font-size: 1rem;
 }
 
-/* Training Facilities Section Styling */
+
 .training-facilities {
   padding: 60px 20px;
-  background-color: #f4f4f4; /* Light gray background */
+  background-color: #f4f4f4; 
   text-align: center;
 }
 
@@ -230,18 +271,18 @@
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333; /* Dark gray text */
+  color: #333; 
 }
 
 .facilities-header p {
   font-size: 1rem;
-  color: #555; /* Medium gray text */
+  color: #555; 
   max-width: 600px;
   margin: 0 auto 40px;
 }
 
-/* Facilities Cards Layout */
-@media (max-width: 1368px) {
+
+@media (max-width: 768px) {
   .facilities-cards {
     flex-direction: column;
     align-items: center;
@@ -255,7 +296,7 @@
 }
 
 .facility-card {
-  background-color: #fff; /* White card */
+  background-color: #fff; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
@@ -271,23 +312,23 @@
 
 .facility-icon {
   font-size: 2.5rem;
-  color: #ffc107; /* Yellow icon */
+  color: #ffc107; 
   margin-bottom: 15px;
 }
 
 .facility-card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #333; /* Dark gray text */
+  color: #333; 
 }
 
 .facility-card p {
   font-size: 0.95rem;
-  color: #555; /* Medium gray text */
+  color: #555; 
   line-height: 1.5;
 }
 
-/* About Our Club Section */
+
 @media (max-width: 1368px) {
   .about-club {
     padding: 40px 15px;
@@ -296,7 +337,7 @@
 .about-club {
   padding: 60px 20px;
   background: url('/Users/bosunbadejo/Downloads/aboutbackground.webp') no-repeat center center / cover; /* Background image */
-  color: yellow; /* White text to contrast dark background */
+  color: yellow; 
   text-align: center;
 }
 
@@ -314,8 +355,8 @@
   margin-right: auto;
 }
 
-/* Club Cards Layout */
-@media (max-width: 1368px) {
+
+@media (max-width: 768px) {
   .club-cards {
     flex-direction: column;
     text-align: center;
@@ -329,7 +370,7 @@
 }
 
 .club-card {
-  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  background-color: rgba(0, 0, 0, 0.8); 
   border-radius: 10px;
   text-align: center;
   padding: 20px;
@@ -353,7 +394,7 @@
   line-height: 1.5;
 }
 
-/* Gallery Section */
+
 @media (max-width: 1368px) {
   .gallery-section {
     flex-direction: column;
@@ -365,7 +406,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem 5%;
-  background-color: #f9f9f9; /* Background color */
+  background-color: #f9f9f9; 
 }
 
 .gallery-content {
@@ -417,8 +458,14 @@
   background-color: #555;
 }
 
-/* Contact Us Section */
-@media (max-width: 1368px) {
+
+@media (max-width: 768px) {
+  .contact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1190px) {
   .contact-cards {
     flex-direction: column;
     align-items: center;
@@ -507,15 +554,15 @@
 
 
 
-/* Follow Us Section */
+
 @media (max-width: 1368px) {
   .follow-container {
     padding: 30px 15px;
   }
   }
 .follow-us-section {
-  background-color: #000; /* Black */
-  color: #ffd700; /* Yellow */
+  background-color: #000; 
+  color: #ffd700; 
   text-align: center;
   padding: 40px 20px;
 }
@@ -531,8 +578,8 @@
 }
 
 .connect-btn {
-  background-color: #ffd700; /* Yellow */
-  color: #000; /* Black */
+  background-color: #ffd700; 
+  color: #000; 
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -541,25 +588,25 @@
 }
 
 .connect-btn:hover {
-  background-color: #e6c200; /* Darker Yellow */
+  background-color: #e6c200; 
 }
 
 
-/* Follow Us Section */
+
 @media (max-width: 1368px) {
   .follow-container {
     padding: 30px 15px;
   }
   }
 .follow-us-section {
-  background-color: #000; /* Black */
+  background-color: #000; 
   padding: 50px 20px;
   text-align: center;
 }
 
 .follow-container {
-  background-color: #fff; /* White */
-  color: #000; /* Black */
+  background-color: #fff; 
+  color: #000; 
   max-width: 600px;
   margin: 0 auto;
   padding: 30px 20px;
@@ -570,7 +617,7 @@
 .follow-container h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
-  color: #000; /* Black */
+  color: #000; 
 }
 
 .follow-container p {
@@ -580,8 +627,8 @@
 }
 
 .connect-btn {
-  background-color: #ffd700; /* Yellow */
-  color: #000; /* Black */
+  background-color: #ffd700;
+  color: #000; 
   border: none;
   padding: 12px 25px;
   font-size: 1rem;
@@ -592,18 +639,18 @@
 }
 
 .connect-btn:hover {
-  background-color: #e6c200; /* Darker Yellow */
+  background-color: #e6c200; 
 }
 
-/* Footer Section */
-@media (max-width: 1368px) {
+
+@media (max-width: 768px) {
   .follow-container {
     padding: 30px 15px;
   }
   }
 
 .footer {
-  background-color: #2e2e2e; /* Dark Gray */
+  background-color: #2e2e2e; 
   color: #fff;
   padding: 50px 20px;
 }
@@ -638,7 +685,7 @@
 .footer-column h3 {
   font-size: 1rem;
   margin-bottom: 15px;
-  color: #ffd700; /* Yellow */
+  color: #ffd700; 
 }
 
 .footer-column ul {
@@ -651,7 +698,7 @@
 }
 
 .footer-column ul li a {
-  color: #aaa; /* Light Gray */
+  color: #aaa; 
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -660,14 +707,14 @@
   text-decoration: underline;
 }
 
-/* Follow Us Section */
+
 @media (max-width: 1368px) {
   .follow-container {
     padding: 30px 15px;
   }
 }
 .follow-us-section {
-  background-color: #1a1a1a; /* Slightly darker gray */
+  background-color: #1a1a1a;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
@@ -676,7 +723,7 @@
 .follow-container h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
-  color: #ffd700; /* Yellow */
+  color: #ffd700; 
 }
 
 .follow-container p {
@@ -686,8 +733,8 @@
 }
 
 .connect-btn {
-  background-color: #ffd700; /* Yellow */
-  color: #2e2e2e; /* Dark Gray */
+  background-color: #ffd700; 
+  color: #2e2e2e; 
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
@@ -696,11 +743,11 @@
 }
 
 .connect-btn:hover {
-  background-color: #e6c200; /* Darker yellow on hover */
+  background-color: #e6c200; 
 }
 
-/* Responsive Design */
-@media (max-width: 1368px) {
+
+@media (max-width: 768px) {
   .footer-links {
     flex-direction: column;
     align-items: center;
@@ -726,7 +773,6 @@
   }
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 1368px) {
   .team-grid {
     flex-wrap: wrap;
@@ -740,7 +786,7 @@
 
 
 
-/* Add keyframes for scroll-up and slider animations */
+
 @keyframes slideUp {
   0% {
     transform: translateY(100px);
@@ -763,7 +809,6 @@
   }
 }
 
-/* Apply animation classes */
 .scroll-up {
   animation: slideUp 1s ease-out forwards;
 }
@@ -772,7 +817,7 @@
   animation: slideIn 1.2s ease-out forwards;
 }
 
-/* Pop-up effect */
+
 .pop-up {
   transform: scale(0);
   animation: popIn 0.8s ease-out forwards;
@@ -789,7 +834,7 @@
   }
 }
 
-/* Section enhancements */
+
 .power-section, .training-facilities, .about-club {
   position: relative;
 }
@@ -811,7 +856,7 @@
   }
 }
 
-/* Button hover animation */
+
 .discover-btn, .gallery-btn, .connect-btn {
   transition: transform 0.3s ease-in-out;
 }
@@ -828,7 +873,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* Adjust layout for tablets */
+  
   .power-section {
     flex-direction: column;
     text-align: center;

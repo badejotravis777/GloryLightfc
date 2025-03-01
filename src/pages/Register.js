@@ -324,7 +324,7 @@ const Register = () => {
   };
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/1234567890", "_blank"); // Replace with actual WhatsApp number
+    window.open("Wa.me/+2349128430714", "_blank");
   };
 
   return (
@@ -422,9 +422,9 @@ const Register = () => {
 
           <BankInfo>
             <h3>Payment Details</h3>
-            <p>Account Name: Glory Light FC</p>
-            <p>Account Number: 1234567890</p>
-            <p>Bank: First Bank of Nigeria</p>
+            <p>Account Name: EDWARD-NGWU CHRISTIAN</p>
+            <p>Account Number: 2011070391</p>
+            <p>Bank: KUDA</p>
           </BankInfo>
 
           <SubmitOptions>

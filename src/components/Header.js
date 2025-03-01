@@ -17,12 +17,12 @@ const Header = () => {
         </Link>
       </div>
 
-      {/* Hamburger Menu Button */}
+   
       <div className="hamburger" onClick={toggleMenu}>
         ☰
       </div>
 
-      {/* Navigation Links */}
+    
       <nav className={`navLinks ${menuOpen ? "open" : ""}`}>
         <Link to="/" onClick={toggleMenu}>Home</Link>
         <Link to="/about" onClick={toggleMenu}>About</Link>

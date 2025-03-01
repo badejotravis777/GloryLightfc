@@ -3,13 +3,11 @@ import { Link } from "react-router-dom";
 import "./HeroBanner.css";
 
 const HeroBanner = () => {
-  // Define your slides—each can be an image or a video.
-  // For videos, set type to "video" and use a <video> element.
   const slides = [
     { type: "image", src: process.env.PUBLIC_URL + "/images/background.jpg" },
     { type: "image", src: process.env.PUBLIC_URL + "/images/background2.jpg" },
     { type: "video", src: process.env.PUBLIC_URL + "/images/background3.mp4" },
-    // { type: "video", src: process.env.PUBLIC_URL + "/videos/video1.mp4" },
+
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -17,7 +15,7 @@ const HeroBanner = () => {
   useEffect(() => {
     const slideInterval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-    }, 5000); // Change slide every 5 seconds
+    }, 5000); 
 
     return () => clearInterval(slideInterval);
   }, [slides.length]);

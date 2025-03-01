@@ -33,7 +33,7 @@
   background-color: #ffc107;
 }
 
-/* Hide menu by default on mobile */
+
 .hamburger {
   display: none;
   font-size: 2rem;
@@ -41,8 +41,8 @@
   cursor: pointer;
 }
 
-/* Mobile Styles */
-@media (max-width: 1368px) {
+
+@media (max-width: 768px) {
   .navLinks {
     display: none;
     flex-direction: column;
