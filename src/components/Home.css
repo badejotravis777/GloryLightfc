@@ -1,148 +1,80 @@
-/* Overall Section Styling */
-/* Fix for responsiveness */
-@media (max-width: 768px) {
-  .power-section {
-    flex-direction: column;
-    text-align: center;
-    padding: 40px;
-    gap: 30px;
-   
-  }
-}
-
-@media (max-width: 1190px) {
-  .power-section {
-    flex-direction: column;
-    text-align: center;
-    padding: 40px;
-    gap: 30px;
-    /* width: 130%; */
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 .power-section {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 50px;
   background-color: #000; 
-  color: #ffc107; 
+  color: #ffc107;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
-
-
 
 .power-content {
   flex: 1;
   max-width: 50%;
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-  .power-content h1 {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px;
-    gap: 40px;
-    width: 130%;
-  }
-}
-
-@media (max-width: 1190px) {
-  .power-content h1 {
-    flex-direction: column;
-    text-align: center;
-    padding: 30px;
-    gap: 40px;
-    width: 130%;
-  }
-}
 .power-content h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2.8rem;
+  font-weight: 700;  /* Bold */
   margin-bottom: 20px;
-  color: #ffc107; 
-}
-
-
-@media (max-width: 768px) {
-  .power-content h2 {
-    flex-direction: column;
-    text-align: center;
-    margin: 0px;
-    width: 180%;
-    
-  }
-}
-
-@media (max-width: 1190px) {
-  .power-content h2 {
-    flex-direction: column;
-    text-align: center;
-    margin: 0px;
-    width: 180%;
-    
-  }
+  color: #ffc107;
 }
 
 .power-content h2 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 
-
-@media (max-width: 768px) {
-  .discover-btn {
-    flex-direction: column;
-    text-align: center;
-    margin: 0px;
-    width: 180%;
-    
-  }
-}
-
-@media (max-width: 1190px) {
-  .discover-btn {
-    flex-direction: column;
-    text-align: center;
-    margin: 0px;
-    width: 180%;
-    
-  }
-}
-
+/* Discover Button Fix */
 .discover-btn {
-  background-color: #ffc107; 
-  color: #000; 
-  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #000;
+  padding: 12px 25px;
   border: none;
   border-radius: 5px;
   font-weight: bold;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
 
 .discover-btn:hover {
-  background-color: #d4a005; 
+  background-color: #d4a005;
 }
 
-
-
-
+/* Mobile Fix */
 @media (max-width: 768px) {
-  .power-image-card {
+  .power-section {
     flex-direction: column;
+    padding: 30px;
     text-align: center;
-    padding: 40px;
-    /* gap: 30px; */
-    width: 190%;
   }
-}
-
-@media (max-width: 1190px) {
-  .power-image-card {
-    flex-direction: column;
+  
+  .power-content {
+    max-width: 90%;
     text-align: center;
-    padding: 40px;
-    gap: 30px;
-    width: 200%;
+    margin: auto;
+  }
+
+  .power-content h1, 
+  .power-content h2 {
+    width: auto;
+  }
+
+  .discover-btn {
+    width: fit-content;
+    margin: auto;
+  }
+
+  .power-image-card {
+    max-width: 100%;
+    margin-top: 20px;
   }
 }
 .power-image-card {
@@ -151,115 +83,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  
 }
-
-
-
-@media (max-width: 768px) {
-  .styled-box {
-    flex-direction: column;
-    text-align: center;
-    /* gap: 30px; */
-    padding-right: 40px;
-    width: 190%;
-    
-  }
-}
-
-@media (max-width: 1190px) {
-  .styled-box {
-    flex-direction: column;
-    text-align: center;
-    /* gap: 30px; */
-    padding-right: 40px;
-    width: 190%;
-    
-  }
-}
-
-
-.styled-box {
-  background-color: #ffc107; 
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-}
-
-
-
-
-
-
-
 .power-image {
-  width: 100%;
-  border-radius: 5px;
+  width: 70%;
 }
-
-
-
-
 @media (max-width: 768px) {
-  .image-caption {
-    flex-direction: column;
-    text-align: center;
-    /* padding: 30px; */
-    /* gap: 40px; */
-    width: 180%;
+  .power-image {
+    /* flex-direction: column;
+    padding: 30px;
+    text-align: center; */
+    /* width: 80%;
+    height: 70%; */
+    visibility: hidden;
   }
 }
-
-@media (max-width: 1190px) {
-  .image-caption {
-    flex-direction: column;
-    text-align: center;
-    /* padding: 30px; */
-    /* gap: 40px; */
-    width: 180%;
-  }
-}
-
-
-.image-caption {
-  margin-top: 20px;
-  background-color: #000; 
-  padding: 15px;
-  border-radius: 10px;
-  color: #ffc107; 
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-
-@media (max-width: 768px) {
-  .image-caption h2 {
-    flex-direction: column;
-    text-align: center;
-    /* padding: 30px; */
-    /* gap: 40px; */
-    width: 150%;
-  }
-}
-@media (max-width: 1190px) {
-  .image-caption h2 {
-    flex-direction: column;
-    text-align: center;
-    /* padding: 30px; */
-    /* gap: 40px; */
-    width: 150%;
-  }
-}
-
-.image-caption h2 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.image-caption p {
-  font-size: 1rem;
-}
-
 
 .training-facilities {
   padding: 60px 20px;
@@ -336,8 +175,10 @@
 }
 .about-club {
   padding: 60px 20px;
-  background-color: red;
-  color: yellow; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: yellow; /* Change to white if needed */
   text-align: center;
 }
 
@@ -370,8 +211,8 @@
 }
 
 .club-card {
-  background-color: rgba(0, 0, 0, 0.8); 
-  border-radius: 10px;
+  background-color: rgba(222, 217, 217, 0.8); 
+  border-radius: 50px;
   text-align: center;
   padding: 20px;
   max-width: 300px;
@@ -382,6 +223,7 @@
   max-width: 100px;
   height: auto;
   margin-bottom: 15px;
+  border-radius: 50px;
 }
 
 .club-card h3 {
@@ -475,52 +317,65 @@
   background-color: #000;
   padding: 50px 20px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contact-header h2 {
   font-size: 2rem;
-  color: red;
+  color: white;
+  font-weight: bold;
 }
 
 .contact-header p {
   font-size: 1rem;
-  color: red;
+  color: white;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 .contact-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin-top: 30px;
 }
 
 .contact-card {
-  background-color: #ffc107;
-  border-radius: 8px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffcc00;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   padding: 20px;
   text-align: center;
-  max-width: 200px;
+  max-width: 220px;
+  min-height: 280px;
 }
 
 .player-image {
-  width: 100%;
-  height: 55%;
-  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Makes images circular */
   margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.contact-card h2 {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
 }
 
 .contact-card h3 {
-  font-size: 1.2rem;
-  color: #000;
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
 }
 
 .contact-card p {
   font-size: 0.9rem;
-  color: red;
+  color: white;
+  font-weight: bold;
 }
-
 .contact-follow {
   margin-top: 40px;
   text-align: center;
@@ -560,7 +415,7 @@
     padding: 30px 15px;
   }
   }
-.follow-us-section {
+/* .follow-us-section {
   background-color: #000; 
   color: #ffd700; 
   text-align: center;
@@ -575,7 +430,7 @@
 .follow-container p {
   font-size: 1.2rem;
   margin-bottom: 20px;
-}
+} */
 
 .connect-btn {
   background-color: #ffd700; 
@@ -604,13 +459,17 @@
   text-align: center;
 }
 
+.fh2 {
+  color: black;
+}
+
 .follow-container {
   background-color: #fff; 
   color: #000; 
   max-width: 600px;
   margin: 0 auto;
   padding: 30px 20px;
-  border-radius: 10px;
+  border-radius: 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -622,7 +481,7 @@
 
 .follow-container p {
   font-size: 1rem;
-  color: black;
+  /* color: black; */
   margin-bottom: 20px;
 }
 

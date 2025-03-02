@@ -9,26 +9,31 @@ const RegisterContainer = styled.div`
   background: #000;
   color: #ffcc00;
   font-family: "Arial", sans-serif;
-
-  
 `;
 
 const FormContainer = styled.div`
   max-width: 800px;
-  margin: 0 auto;
+  margin: 40px auto; /* Adds space from the top and bottom */
   background: #222;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   width: 100%;
 
-  @media (max-width: 768px) { /* Targets mobile devices */
-  .styled.div {
-      width: 90%; /* Reduce width to fit within small screens */
-      max-width: 400px; /* Ensures it doesn't stretch too much */
-      padding: 15px;
+  @media (max-width: 768px) { 
+    width: 90%; /* Reduce width to fit smaller screens */
+    max-width: 400px; /* Ensures it doesn't stretch too much */
+    padding: 20px; /* Proper spacing inside */
+    margin: 20px auto; /* Adds spacing around the form */
+  }
+
+  @media (max-width: 480px) { 
+    width: 95%; /* Further adjustment for very small screens */
+    padding: 15px;
+    margin: 15px auto;
   }
 `;
+
 
 const SectionHeader = styled.h2`
   text-align: center;
@@ -127,6 +132,12 @@ const Form = styled.form`
     border: 1px solid #ccc;
     font-size: 1rem;
     color: #333;
+
+    @media (max-width: 768px) { 
+      font-size: 14px;
+      padding: 8px;
+      width: 95%;
+    }
   }
 
   button {
@@ -169,6 +180,7 @@ const BankInfo = styled.div`
     margin: 5px 0;
   }
 `;
+
 
 const SubmitOptions = styled.div`
   margin-top: 20px;
@@ -324,7 +336,7 @@ const Register = () => {
   };
 
   const handleWhatsAppClick = () => {
-    window.open("Wa.me/+2349128430714", "_blank");
+    window.open("Wa.me/+2349128430714");
   };
 
   return (
@@ -359,6 +371,7 @@ const Register = () => {
               <option value="">Select Country</option>
               <option value="+234">Nigeria (+234)</option>
               <option value="+1">USA (+1)</option>
+              <option value="+44">UK (+44)</option>
             </select>
 
             <input
@@ -428,10 +441,10 @@ const Register = () => {
           </BankInfo>
 
           <SubmitOptions>
-            <button className="email" onClick={handleEmailClick}>
+            <button className="email" onClick={handleEmailClick} >
               <FaEnvelope /> Submit Receipt via Email
             </button>
-            <button className="whatsapp" onClick={handleWhatsAppClick}>
+            <button className="whatsapp" onClick={handleWhatsAppClick} >
               <FaWhatsapp /> Submit Receipt via WhatsApp
             </button>
           </SubmitOptions>

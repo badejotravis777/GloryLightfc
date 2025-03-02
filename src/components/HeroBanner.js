@@ -6,7 +6,8 @@ const HeroBanner = () => {
   const slides = [
     { type: "image", src: process.env.PUBLIC_URL + "/images/background.jpg" },
     { type: "image", src: process.env.PUBLIC_URL + "/images/background2.jpg" },
-    { type: "video", src: process.env.PUBLIC_URL + "/images/background3.mp4" },
+    { type: "image", src: process.env.PUBLIC_URL + "/images/imagepage8.png"},
+    { type: "image", src: process.env.PUBLIC_URL + "/images/imagepage6.png"}, 
 
   ];
 
