@@ -4,10 +4,11 @@ import "./HeroBanner.css";
 
 const HeroBanner = () => {
   const slides = [
-    { type: "image", src: process.env.PUBLIC_URL + "/images/background.jpg" },
+    { type: "image", src: process.env.PUBLIC_URL + "/images/img20.jpeg" },
     { type: "image", src: process.env.PUBLIC_URL + "/images/background2.jpg" },
-    { type: "image", src: process.env.PUBLIC_URL + "/images/imagepage8.png"},
-    { type: "image", src: process.env.PUBLIC_URL + "/images/imagepage6.png"}, 
+    { type: "image", src: process.env.PUBLIC_URL + "/images/img19.jpeg"},
+    { type: "image", src: process.env.PUBLIC_URL + "/images/img20.jpeg"}, 
+    { type: "image", src: process.env.PUBLIC_URL + "/images/img18.jpeg"}, 
 
   ];
 
@@ -37,8 +38,8 @@ const HeroBanner = () => {
         </video>
       )}
       <div className="hero-content">
-        <h1>Welcome to Glory Light FC</h1>
-        <p>A Premier Football Club's Journey</p>
+        <h1><b>Welcome to Glory Light FC</b></h1>
+        <p><b>A Premier Football Club's Journey</b></p>
         <Link to="/register" className="btn">
           Join the Squad
         </Link>

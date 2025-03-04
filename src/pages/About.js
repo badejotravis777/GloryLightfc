@@ -85,13 +85,13 @@ const FounderImage = styled.div`
 const TeamGrid = styled.section`
   text-align: center;
   background: #111;
-  color: #fff;
+   color: #ffd700;
   padding: 3rem 1rem;
 
   h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    color: #f97316;
+    color: #ffd700;
   }
 
   .team-grid {
@@ -109,10 +109,11 @@ const TeamGrid = styled.section`
     width: 100%;
     max-width: 300px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 50px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
+    color: #ffd700;
 
     .inner {
       position: relative;
@@ -120,6 +121,7 @@ const TeamGrid = styled.section`
       height: 100%;
       transform-style: preserve-3d;
       transition: transform 0.6s;
+      color: #ffd700;
     }
 
     &.active .inner {
@@ -147,13 +149,13 @@ const TeamGrid = styled.section`
         border-radius: 70%;
         object-fit: cover;
         margin-bottom: 1rem;
-        border: 3px solid #f97316;
+        border: 3px solid #ffd700;
       }
 
       h3 {
         margin: 0.5rem 0;
         font-size: 1.2rem;
-        color: #f97316;
+        color: #ffd700;
       }
 
       .icons {
@@ -162,20 +164,20 @@ const TeamGrid = styled.section`
         margin-top: 1rem;
 
         a {
-          color: #f97316;
+          color: #ffd700;
           font-size: 1.5rem;
           transition: color 0.3s;
 
           &:hover {
-            color: #ffaf5f;
+            color: #ffd700;
           }
         }
       }
     }
 
     .back {
-      background: #f97316;
-      color: #fff;
+       background: #ffd700;
+      color: #ffd700;
       transform: rotateY(180deg);
       padding: 1.5rem;
       font-size: 1.1rem;
@@ -279,7 +281,7 @@ const About = () => {
         <Section id="founder-section">
           <h2>The Founder’s Story</h2>
           <p>
-            <Highlight>Edward-Ngwu Christian</Highlight>, the visionary founder of Glory Light FC, created this football academy driven by his unwavering passion for the beautiful game and a heartfelt commitment to nurturing young talent. From an early age, Edward recognized football as more than just a sport—it is a powerful tool to inspire, unite, and transform lives. His vision for Glory Light FC was born out of a desire to create opportunities for aspiring athletes, providing them with the skills, discipline, and mentorship needed to excel both on and off the field. With a steadfast belief in the potential of young players, he envisioned the academy as a haven where raw talent could be honed, values such as teamwork, perseverance, and leadership could be instilled, and dreams could take flight. Through Glory Light FC, Edward aims not only to produce skilled footballers but also to shape individuals who will become positive forces in their communities and ambassadors of hope, resilience, and excellence. His commitment to fostering the next generation of football stars is matched only by his dedication to their holistic development as future leaders and role models in society.
+            <Highlight>Edward-Ngwu Christian</Highlight>, the visionary founder of Glory Light FC, created this football academy driven by his unwavering passion for the beautiful game and a heartfelt commitment to nurturing young talent. From an early age, Christian recognized football as more than just a sport. It is a powerful tool to inspire, unite, and transform lives. His vision for Glory Light FC was born out of a desire to create opportunities for aspiring athletes, providing them with the skills, discipline, and mentorship needed to excel both on and off the field. With a steadfast belief in the potential of young players, he envisioned the academy as a haven where raw talent could be honed, values such as teamwork, perseverance, and leadership could be instilled, and dreams could take flight. Through Glory Light FC, Edward aims not only to produce skilled footballers but also to shape individuals who will become positive forces in their communities and ambassadors of hope, resilience, and excellence. His commitment to fostering the next generation of football stars is matched only by his dedication to their holistic development as future leaders and role models in society.
           </p>
           <FounderImage isVisible={isVisible}>
             <img src="/images/founderr.png" alt="Founder" />
@@ -295,13 +297,13 @@ const About = () => {
             <div className="team-grid">
               {[
                 { name: 'Edward-Ngwu Christian',
-                 role: 'Founder', 
+                 role: 'Founder/CEO', 
                  imgSrc: "/images/founderr.png", 
                  linkedin: 'https://www.linkedin.com/in/christianedward-ngwu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
                   whatsapp: 'Wa.me/+2349128430714',
                    quote: 'Empowering the next generation.' },
                 { name: 'Ayobami Omoyajowo',
-                 role: 'Fashion Designer',
+                 role: 'Creative Director',
                   imgSrc: "/images/member2.png", 
                   linkedin: 'https://linkedin.com/in/edwardngwuchristian',
                    whatsapp: 'Wa.me/+2349049172767', 
@@ -316,7 +318,7 @@ const About = () => {
       },
 
       { name: 'Amarachi Favour Moses',
-      role: 'Lead HR',
+      role: 'Human Resource Head',
        imgSrc:"/images/player5.png",
        linkedin: 'https://linkedin.com/in/edwardngwuchristian',
        whatsapp: 'Wa.me/+2348087653352',
@@ -328,14 +330,6 @@ const About = () => {
        imgSrc:"/images/member4.png",
        linkedin: 'https://linkedin.com/in/edwardngwuchristian',
        whatsapp: '123456789',
-       quote: 'Empowering the next generation.',
-       },
-
-       { name: 'Okafor chidinma Ruth',
-       role: 'Okafor chidinma Ruth', 
-       imgSrc:"/images/member17.png",
-       linkedin: 'https://www.linkedin.com/in/ruth-okafor-442a82251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-       whatsapp: 'Wa.me/+2349029096328',
        quote: 'Empowering the next generation.',
        },
 
@@ -372,7 +366,7 @@ const About = () => {
              },
       
              { name: 'Kalu Chioma',
-              role: 'Social-Media Management',
+              role: 'Media Head',
                imgSrc:"/images/member9.png",
                linkedin: 'https://www.linkedin.com/in/chioma-kalu-69a639339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
                whatsapp: 'Wa.me/+2348132873023',
@@ -388,7 +382,7 @@ const About = () => {
                },
      
                { name: 'Moses Tomiwa',
-                role: 'Coaching crew/phone videographer',
+                role: 'Coaching crew',
                  imgSrc:"/images/member11.png",
                  linkedin: 'https://linkedin.com/in/edwardngwuchristian',
                  whatsapp: '123456789',
@@ -405,7 +399,7 @@ const About = () => {
 
       
                  { name: 'Ayah Favour Bonny oyeindipamo',
-                  role: 'Creative Thinker', 
+                  role: 'Secetary', 
                   imgSrc:"/images/member12.png",
                   linkedin: 'https://www.linkedin.com/in/ayah-bonny-416522178?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
                   whatsapp: 'Wa.me/+2348102697897',
@@ -505,7 +499,7 @@ const About = () => {
               <div className="footer-column">
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a href="/home">Home</a></li>
+                  <li><a href="/">Home</a></li>
                   <li><a href="/about">About</a></li>
                   <li><a href="/programs">Programs</a></li>
                   <li><a href="/contact">Contact</a></li>

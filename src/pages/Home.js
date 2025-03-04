@@ -243,25 +243,25 @@ const Home = () => {
           <div className="contact-card">
             <img src={player1} alt="Player 1" className="player-image" />
             <h2>EDWARD-NGWU CHRISTIAN</h2>
-            <h3>CEO</h3>
+            <h3>FOUNDER/CEO</h3>
             <p>Christianedward665@gmail.com</p>
           </div>
           <div className="contact-card">
             <img src={player2} alt="Player 2" className="player-image" />
             <h2>FAVOUR OYEINDIPAMO </h2>
-            <h3>Secatary</h3>
+            <h3>Secetary</h3>
             <p>Favourbonny92@gmail.com</p>
           </div>
           <div className="contact-card">
             <img src={player3} alt="Player 3" className="player-image" />
             <h2>KALU CHIOMA</h2>
-            <h3>social media manager</h3>
+            <h3>Media Head</h3>
             <p>chiomakalu886@gmail.com</p>
           </div>
           <div className="contact-card">
             <img src={player5} alt="Player 4" className="player-image" />
             <h2>AMARACHI FAVOUR MOSES</h2>
-            <h3>Lead HR</h3>
+            <h3>Human Resource Head</h3>
             <p>favouramaofficial@gmail.com</p>
           </div>
 
@@ -300,6 +300,7 @@ const Home = () => {
                 <li><a href="/about">About</a></li>
                 <li><a href="/programs">Programs</a></li>
                 <li><a href="/contact">Contact</a></li>
+                <li><a href="/Career">Careers</a></li>
               </ul>
             </div>
             <div className="footer-column">

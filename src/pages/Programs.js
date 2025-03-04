@@ -104,6 +104,31 @@ const ProgramDescription = styled.p`
   line-height: 1.6;
 `;
 
+const Section = styled.section`
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #111;
+
+  h2 {
+    font-size: 1.8rem;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+`;
+
+
+
+
+
+
 const Programs = () => {
   return (
     <>
@@ -132,6 +157,80 @@ const Programs = () => {
             </ProgramDescription>
           </ProgramCard>
         </ProgramGrid>
+
+
+
+        <Section id="founder-section">
+          <h2>Facilities & Offers</h2>
+          <ProgramCard>
+          <p>
+            At Glory Light FC, we are dedicated to providing top-tier facilities and exceptional services that support our players, coaches, and partners. Our goal is to create an environment where talent is nurtured, and individuals can perform at their highest potential. Here’s what we offer:
+ </p>
+ </ProgramCard>
+
+ <ProgramCard>
+          <p>⚽ State-of-the-Art Training Facilities
+
+Our training grounds feature high-quality pitches and modern amenities, ensuring players train in a professional environment. Whether for individual drills or team exercises, we provide the best conditions for player development.
+</p>
+</ProgramCard>
+
+<ProgramCard>
+<p>
+🏋️‍♂️ Player Fitness & Rehabilitation Programs
+
+We prioritize player wellness with personalized fitness routines, physiotherapy, and injury prevention programs. Our goal is to keep players in peak physical condition throughout the season.
+
+
+</p>
+</ProgramCard>
+<ProgramCard>
+<p>
+🎓 Elite Coaching & Tactical Development
+
+Our experienced coaching staff delivers top-tier training, focusing on technical, tactical, and physical growth. We prepare players for success at competitive levels, ensuring they meet the highest football standards.
+
+
+</p>
+</ProgramCard>
+<ProgramCard>
+<p>
+🌍 Player Exposure & Career Opportunities
+
+We connect players to opportunities by organizing competitive matches, scouting programs, and international exposure through tournaments and professional networks.
+
+
+</p>
+</ProgramCard>
+<ProgramCard>
+<p>
+🛡️ Youth Academy & Talent Development
+
+Our academy is committed to grooming young talents, providing structured training, mentorship, and pathways to professional football careers.
+
+
+</p>
+</ProgramCard>
+<ProgramCard>
+<p>
+🤝 Sponsorship & Corporate Partnerships
+
+We collaborate with brands and organizations for sponsorship opportunities, offering strategic partnerships that align with a winning football culture.
+
+
+</p>
+</ProgramCard>
+<ProgramCard>
+<p>
+🏟️ Facilities for Rent & Event Hosting
+
+Our professional-grade facilities are available for rent, whether for team training, matches, or special events, ensuring a premium football experience.
+</p>
+</ProgramCard>
+      
+        </Section>
+
+
       </ProgramsContainer>
       <Footer>
         <footer className="footer">

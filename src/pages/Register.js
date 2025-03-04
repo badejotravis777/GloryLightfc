@@ -435,6 +435,7 @@ const Register = () => {
 
           <BankInfo>
             <h3>Payment Details</h3>
+            <p>Amount: 5000 Naira<b>(REGISTRATION FEE ONLY)</b></p>
             <p>Account Name: EDWARD-NGWU CHRISTIAN</p>
             <p>Account Number: 2011070391</p>
             <p>Bank: KUDA</p>

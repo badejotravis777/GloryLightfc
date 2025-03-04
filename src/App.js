@@ -7,6 +7,9 @@ import Programs from './pages/Programs';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Register from './pages/Register';
+import Career from './pages/Career';
+
+import Apply from './pages/Apply';
 import './styles/Global.css';
 
 
@@ -20,6 +23,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/career" element={<Career />} />
+       
+        <Route path="/apply" element={<Apply />} />
       </Routes>
     </Router>
   );
