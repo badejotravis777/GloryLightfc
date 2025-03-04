@@ -179,8 +179,8 @@
   padding: 60px 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  color: black;
-  background-color: yellow; /* Change to white if needed */
+  color: white;
+  background-color: #000; /* Change to white if needed */
   text-align: center;
 }
 
@@ -213,7 +213,7 @@
 }
 
 .club-card {
-  background-color: rgba(222, 217, 217, 0.8); 
+  background-color: #ffcc00; 
   border-radius: 50px;
   text-align: center;
   padding: 20px;
@@ -231,11 +231,13 @@
 .club-card h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: black;
 }
 
 .club-card p {
   font-size: 0.9rem;
   line-height: 1.5;
+  color: #000;
 }
 
 

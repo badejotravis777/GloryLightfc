@@ -64,15 +64,15 @@ const Apply = () => {
 
   return (
     <div className="apply-page">
-      <h1>Apply for Job ID: {jobId}</h1>
+      <h1>Apply: {jobId}</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" name="fullName" placeholder="Full Name" onChange={handleChange} required />
         <input type="email" name="email" placeholder="Email Address" onChange={handleChange} required />
         <input type="text" name="phone" placeholder="Phone Number" onChange={handleChange} required />
         <input type="text" name="qualification" placeholder="Highest Educational Qualification" onChange={handleChange} required />
 
-        <label>Upload WAEC Result</label>
-        <input type="file" name="waecResult" onChange={handleFileChange} required />
+        {/* <label>Upload WAEC Result</label>
+        <input type="file" name="waecResult" onChange={handleFileChange} required /> */}
 
         <label>Upload Resume</label>
         <input type="file" name="resume" onChange={handleFileChange} required />

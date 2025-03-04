@@ -89,3 +89,11 @@
     transition: 0.3s;
   }
   
+  @media (max-width: 768px) {
+    .career-page {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+     
+    }
+}

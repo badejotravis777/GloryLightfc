@@ -8,6 +8,7 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Register from './pages/Register';
 import Career from './pages/Career';
+import Facilities from './pages/Facilities';
 
 import Apply from './pages/Apply';
 import './styles/Global.css';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/career" element={<Career />} />
        
         <Route path="/apply" element={<Apply />} />
+        <Route path="/facilities" element={<Facilities />} />
       </Routes>
     </Router>
   );

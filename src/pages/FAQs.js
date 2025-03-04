@@ -19,7 +19,7 @@ const FAQs = () => {
       </FAQSection>
       <FAQSection>
         <h3>What is the registration fee?</h3>
-        <p>The registration fee is ₦7000, which includes access to all training programs.</p>
+        <p>The registration fee is ₦5000, which includes access to all training programs.</p>
       </FAQSection>
     </FAQsContainer>
   );

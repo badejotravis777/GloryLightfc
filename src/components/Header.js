@@ -28,6 +28,7 @@ const Header = () => {
         <Link to="/about" onClick={toggleMenu}>About</Link>
         <Link to="/programs" onClick={toggleMenu}>Programs</Link>
         <Link to="/gallery" onClick={toggleMenu}>Gallery</Link>
+        <Link to="/career" onClick={toggleMenu}>Careers</Link>
         <Link to="/contact" onClick={toggleMenu}>Contact</Link>
         <Link to="/register" className="joinButton" onClick={toggleMenu}>
           Join the Squad

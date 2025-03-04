@@ -249,7 +249,7 @@ const Home = () => {
           <div className="contact-card">
             <img src={player2} alt="Player 2" className="player-image" />
             <h2>FAVOUR OYEINDIPAMO </h2>
-            <h3>Secetary</h3>
+            <h3>Secretary</h3>
             <p>Favourbonny92@gmail.com</p>
           </div>
           <div className="contact-card">
@@ -290,7 +290,7 @@ const Home = () => {
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-logo">
-            <p>© 2024 Travrick, Inc. All rights reserved.</p>
+            <p>© 2024 glorylightfc, Inc. All rights reserved.</p>
           </div>
           <div className="footer-links">
             <div className="footer-column">

@@ -201,13 +201,12 @@ const Gallery = () => {
     { src: "/images/img11.jpeg", alt: "Jersey" },
     { src: "/images/imagepage6.png", alt: "Hard work beats talent when talent doesn’t work hard." },
     { src: "/images/img12.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage7.png", alt: "Football isn’t just a game; it’s a way of life." },
     { src: "/images/img13.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage8.png", alt: "Success in football starts with belief, effort, and never giving up" },
+    
     { src: "/images/img14.jpeg", alt: "Jersey" },
     { src: "/images/imagepage9.png", alt: "Dream big, train hard, and let your boots do the talking." },
     { src: "/images/img15.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage10.png", alt: "Final Whistle" },
+   
     { src: "/images/img18.jpeg", alt: "Training" },
     
     // { src: "/images/img16.jpeg", alt: "Jersey" },
@@ -246,7 +245,7 @@ const Gallery = () => {
         <footer className="footer">
           <div className="footer-container">
             <div className="footer-logo">
-              <p>© 2024 Travrick, Inc. All rights reserved.</p>
+              <p>© 2024 glorylightfc, Inc. All rights reserved.</p>
             </div>
             <div className="footer-links">
               <div className="footer-column">
@@ -255,6 +254,7 @@ const Gallery = () => {
                   <li><a href="/home">Home</a></li>
                   <li><a href="/about">About</a></li>
                   <li><a href="/programs">Programs</a></li>
+                  <li><a href="/Career">Careers</a></li>
                   <li><a href="/contact">Contact</a></li>
                 </ul>
               </div>
