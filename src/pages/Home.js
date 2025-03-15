@@ -87,7 +87,6 @@ const SponsorCard = styled.a`
 const SponsorsSection = () => {
   const sponsors = [
     { name: "Psychoworld", logo: "/images/psychoworld.png", website: "Psychowrld.site" },
-    { name: "Chasescroll", logo: "/images/chasescrollr.png", website: "www.chasescroll.com" },
     { name: "Travrick", logo: "/images/reallogot.png", website: "https://companyC.com" },
   ];
 
