@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import styled, { keyframes } from "styled-components";
 import HeroBanner from '../components/HeroBanner';
 import '../components/Home.css';
-import secondPartImage from '../images/second-part.png'; 
+import secondPartImage from '../images/img14.jpeg'; 
 import galleryImage from '../images/img14.jpeg';
 import player1 from '../images/frr.png'; 
 import player2 from '../images/player2.png';
