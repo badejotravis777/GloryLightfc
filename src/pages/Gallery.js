@@ -188,23 +188,22 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: "/images/imagepage1.png", alt: "Train with passion, play with heart, and rise as a champion." },
     { src: "/images/img20.jpeg", alt: "Training" },
-    { src: "/images/imagepage2.png", alt: "Great players are made in training, legends are made on the field." },
+   
     { src: "/images/img19.jpeg", alt: "Buzzing" },
-    { src: "/images/imagepage3.png", alt: "Discipline, dedication, and determination—these make a true champion." },
+   
     { src: "/images/img11.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage4.png", alt: "Every kick, every pass, every goal brings you closer to greatness." },
+  
     { src: "/images/img19.jpeg", alt: "Buzzing" },
     { src: "/images/img13.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage5.png", alt: "Play with purpose, train with passion, and leave a legacy." },
+    
     { src: "/images/img11.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage6.png", alt: "Hard work beats talent when talent doesn’t work hard." },
+
     { src: "/images/img12.jpeg", alt: "Jersey" },
     { src: "/images/img13.jpeg", alt: "Jersey" },
     
     { src: "/images/img14.jpeg", alt: "Jersey" },
-    { src: "/images/imagepage9.png", alt: "Dream big, train hard, and let your boots do the talking." },
+
     { src: "/images/img15.jpeg", alt: "Jersey" },
    
     { src: "/images/img18.jpeg", alt: "Training" },
