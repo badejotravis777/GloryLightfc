@@ -9,9 +9,13 @@ const HeroBanner = () => {
     // { type: "image", src: process.env.PUBLIC_URL + "/images/img19.jpeg"},
     // { type: "image", src: process.env.PUBLIC_URL + "/images/img20.jpeg"}, 
     // { type: "image", src: process.env.PUBLIC_URL + "/images/img18.jpeg"}, 
-    { type: "image", src: process.env.PUBLIC_URL + "/images/founder.png"}, 
-        { type: "image", src: process.env.PUBLIC_URL + "/images/img14.jpeg"}, 
-        { type: "image", src: process.env.PUBLIC_URL + "/images/img15.jpeg"}, 
+    { type: "image", src: process.env.PUBLIC_URL + "/images/upd1.png"}, 
+        { type: "image", src: process.env.PUBLIC_URL + "/images/upd2.png"}, 
+        { type: "image", src: process.env.PUBLIC_URL + "/images/upd26.png"}, 
+        { type: "image", src: process.env.PUBLIC_URL + "/images/upd28.png"}, 
+        { type: "image", src: process.env.PUBLIC_URL + "/images/upd46.png"}, 
+        { type: "image", src: process.env.PUBLIC_URL + "/images/upd29.png"}, 
+        { type: "image", src: process.env.PUBLIC_URL + "/images/upd30.png"}, 
 
   ];
 
