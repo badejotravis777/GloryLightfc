@@ -7,15 +7,17 @@
   height: 50px; */ 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  background-color: #333;
+  background-color: #fff;
 }
 
 body {
   padding-top: 80px;
+  
 }
 
 .logo img {
   width: 120px;
+
 }
 
 .navLinks {
@@ -24,7 +26,7 @@ body {
 }
 
 .navLinks a {
-  color: white;
+  color:  #333;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -45,7 +47,7 @@ body {
 .hamburger {
   display: none;
   font-size: 2rem;
-  color: white;
+  color:  #333;
   cursor: pointer;
 }
 

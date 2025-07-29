@@ -4,52 +4,21 @@ import Header from '../components/Header';
 import styled, { keyframes } from "styled-components";
 import HeroBanner from '../components/HeroBanner';
 import '../components/Home.css';
-import secondPartImage from '../images/img14.jpeg'; 
-import galleryImage from '../images/img14.jpeg';
-import player1 from '../images/frr.png'; 
-import player2 from '../images/player2.png';
-import player3 from '../images/player3.png';
-import player5 from '../images/player5.png';
-import player6 from '../images/player6.png';
-// import player5 from '../images/player5.png';
+import secondPartImage from '../images/cm6.jpeg'; 
+import galleryImage from '../images/cm1.jpeg';
 
 
 
-const SponsorsContainer = styled.section`
-  padding: 40px 20px;
-  background: #000;
-  color: #ffcc00;
-  font-family: "Arial", sans-serif;
-`;
 
-const SponsorsTitle = styled.h2`
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-`;
 
-const SponsorsSubtitle = styled.p`
-  text-align: center;
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-`;
+
+
 
 const scrollAnimation = keyframes`
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 `;
 
-const SliderWrapper = styled.div`
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-`;
-
-const Slider = styled.div`
-  display: flex;
-  align-items: center;
-  animation: ${scrollAnimation} 20s linear infinite;
-`;
 
 const SponsorCard = styled.a`
   display: flex;
@@ -84,29 +53,6 @@ const SponsorCard = styled.a`
 `;
 
 
-const SponsorsSection = () => {
-  const sponsors = [
-    { name: "Psychoworld", logo: "/images/psychoworld.png", website: "Psychowrld.site" },
-    { name: "Travrick", logo: "/images/reallogot.png", website: "https://companyC.com" },
-  ];
-
-  return (
-    <SponsorsContainer>
-      <SponsorsTitle>Our Sponsors</SponsorsTitle>
-      <SponsorsSubtitle>We are currently seeking more sponsors. Interested companies, please get in touch!</SponsorsSubtitle>
-      <SliderWrapper>
-        <Slider>
-          {sponsors.map((sponsor, index) => (
-            <SponsorCard key={index} href={sponsor.website} target="_blank" rel="noopener noreferrer">
-              <img src={sponsor.logo} alt={sponsor.name} />
-              <h3>{sponsor.name}</h3>
-            </SponsorCard>
-          ))}
-        </Slider>
-      </SliderWrapper>
-    </SponsorsContainer>
-  );
-};
 
 const Home = () => {
   return (
@@ -229,52 +175,8 @@ const Home = () => {
         </div>
       </section>
 
-
-       {/* Contact Us Section */}
-       <section className="contact-us-section">
-        <div className="contact-header">
-          <h2>Contact Us</h2>
-          <p>
-            Get in touch with our team to learn more about our club, our programs, and how you can join the journey.
-          </p>
-        </div>
-        <div className="contact-cards">
-          <div className="contact-card">
-            <img src={player1} alt="Player 1" className="player-image" />
-            <h2>EDWARD-NGWU CHRISTIAN</h2>
-            <h3>FOUNDER/CEO</h3>
-            <p>Christianedward665@gmail.com</p>
-          </div>
-          <div className="contact-card">
-            <img src={player2} alt="Player 2" className="player-image" />
-            <h2>FAVOUR OYEINDIPAMO </h2>
-            <h3>Secretary</h3>
-            <p>Favourbonny92@gmail.com</p>
-          </div>
-          <div className="contact-card">
-            <img src={player3} alt="Player 3" className="player-image" />
-            <h2>KALU CHIOMA</h2>
-            <h3>Media Head</h3>
-            <p>chiomakalu886@gmail.com</p>
-          </div>
-          <div className="contact-card">
-            <img src={player5} alt="Player 4" className="player-image" />
-            <h2>AMARACHI FAVOUR MOSES</h2>
-            <h3>Human Resource Head</h3>
-            <p>favouramaofficial@gmail.com</p>
-          </div>
-
-          <div className="contact-card">
-            <img src={player6} alt="Player 4" className="player-image" />
-            <h2> ADEFOLARIN OLUDELE</h2>
-            <h3>Human Resource Manager</h3>
-            <p>oludeleadefolarin@gmail.com</p>
-          </div>
-
-        </div>
-      </section>
      
-          <SponsorsSection />
+       
 
  {/* Follow Us Section */}
  <section className="follow-us-section">

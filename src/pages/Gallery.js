@@ -188,6 +188,7 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
+    { src: "/images/cm6.jpeg", },
     { src: "/images/img20.jpeg", alt: "Training" },
    
     { src: "/images/img19.jpeg", alt: "Buzzing" },
@@ -226,25 +227,31 @@ const Gallery = () => {
     { src: "/images/upd14.png", },
     { src: "/images/upd15.png", },
     { src: "/images/upd17.png", },
+    { src: "/images/cm2.jpeg", },
    
     { src: "/images/upd21.png", },
     { src: "/images/upd22.png", },
     { src: "/images/upd23.png", },
+    { src: "/images/cm3.jpeg", },
     { src: "/images/upd24.png", },
    
     { src: "/images/upd26.png", },
     { src: "/images/upd28.png", },
     { src: "/images/upd29.png", },
     { src: "/images/upd10.png", },
+    { src: "/images/cm1.jpeg", },
     { src: "/images/upd30.png", },
     { src: "/images/upd31.png", },
     { src: "/images/upd33.png", },
     { src: "/images/upd34.png", },
+    { src: "/images/cm4.jpeg", },
    
     { src: "/images/upd19.png", },
    
     { src: "/images/upd37.png", },
     { src: "/images/upd40.png", },
+    { src: "/images/cm5.jpeg", },
+
     { src: "/images/upd41.png", },
 
     { src: "/images/upd44.png", },
@@ -252,10 +259,7 @@ const Gallery = () => {
     { src: "/images/upd35.png", },
     { src: "/images/upd36.png", },
     { src: "/images/upd46.png", },
-    { src: "/images/upd43.png", },
-    // { src: "/images/img16.jpeg", alt: "Jersey" },
-    // { src: "/images/img17.jpeg", alt: "Jersey" },
-    // { src: "/images/img18.jpeg", alt: "Training" },
+    { src: "/images/cm6.jpeg", },
   ];
 
   return (
